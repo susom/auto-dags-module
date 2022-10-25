@@ -3,7 +3,7 @@ namespace Vanderbilt\AutoDAGsExternalModule;
 
 class AutoDAGsExternalModule extends \ExternalModules\AbstractExternalModule{
 	const LABEL_VALUE_SEPARATOR = ' - ';
-    const LABEL_VALUE_ELEMENT_TYPES = ['select','radio'];
+    const LABEL_VALUE_ELEMENT_TYPES = ['select','radio', 'dropdown'];
     const LABEL_ONLY_ELEMENT_TYPES = ['text','calc','yesno','truefalse','slider','sql'];
 
 	// We cache group info for the set-all-dags.php script, both for performance and because
