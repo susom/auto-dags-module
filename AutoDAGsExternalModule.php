@@ -45,7 +45,7 @@ class AutoDAGsExternalModule extends \ExternalModules\AbstractExternalModule{
             }
             else {
                 // Incompatible field type
-                \REDCap::logEvent($this->getModuleName() . "\n(Configuration Error)","AutoDag field $dagFieldName is if type $fieldType which is not compatible.  Please read documentation and adjust settings",'',$record,null,$project_id);
+                \REDCap::logEvent($this->getModuleName() . "\n(Configuration Error)","AutoDag field $dagFieldName is of type $fieldType which is not compatible.  Please read documentation and adjust settings",'',$record,null,$project_id);
                 return false;
             }
 
